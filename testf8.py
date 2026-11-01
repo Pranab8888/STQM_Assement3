@@ -16,6 +16,7 @@ CART_URL = "https://opencart.abstracta.us/index.php?route=checkout/cart"
 def test_manage_cart():
     driver = webdriver.Safari()
     wait = WebDriverWait(driver, 15)
+    phtt
 
     try:
         # Step 1: Open website
